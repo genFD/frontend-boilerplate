@@ -1,16 +1,9 @@
-import { useEffect, useState } from 'react'
-import './styles.css'
-import PostList from './components/PostList'
+import './styles.css';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes';
 
 function App() {
-  const showModalHandler = () => {
-    return 'ddd'
-  }
-  return (
-    <main>
-      <PostList />
-    </main>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
