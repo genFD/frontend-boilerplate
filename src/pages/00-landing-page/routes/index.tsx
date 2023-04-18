@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Landing } from '../components/Layout';
+import { Landing } from '@/pages';
 
 export const LandingRoute = () => {
   return (

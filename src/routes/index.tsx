@@ -1,8 +1,7 @@
-import { Home } from '../pages';
-import { publicRoutes } from './public';
-import { protectedRoutes } from './protected';
+import { publicRoutes } from '@/routes/public';
+import { protectedRoutes } from '@/routes/protected';
 import { createBrowserRouter } from 'react-router-dom';
-import { LandingRoute } from '../pages/00-landing-page';
+import { LandingRoute } from '@/pages';
 
 const test = false;
 const routes = test ? protectedRoutes : publicRoutes;

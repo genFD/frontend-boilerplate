@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import * as React from 'react';
 
-import { Spinner } from '../Spinner/Spinner';
+import { Spinner } from '@/shared';
 
 const variants = {
   primary: 'bg-blue-600 text-white',

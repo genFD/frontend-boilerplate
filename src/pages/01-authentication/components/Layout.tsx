@@ -1,4 +1,3 @@
-import { MainLayout } from '@/shared';
 type LayoutProps = {
   children: React.ReactNode;
   title: string;

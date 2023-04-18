@@ -1,8 +1,3 @@
-import { AuthRoutes } from '../pages';
-// import { AuthRoutes } from '@/features/authentication';
+import { AuthRoutes } from '@/pages';
 
-export const publicRoutes = [
-  // { path: 'login', element: <h1>Login</h1> },
-  // { path: 'register', element: <h1>Register</h1> },
-  { path: '/auth/*', element: <AuthRoutes /> },
-];
+export const publicRoutes = [{ path: '/auth/*', element: <AuthRoutes /> }];
